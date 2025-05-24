@@ -108,7 +108,7 @@ switch (op) {
 
   resetState()
   setShouldClearDisplay(true)
-};
+}
 
 const handleToggleSign = () => {
   if (display === 'ERROR') return

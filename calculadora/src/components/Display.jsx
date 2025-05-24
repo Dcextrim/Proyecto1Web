@@ -9,7 +9,8 @@ function Display({ value }) {
     return () => clearTimeout(t)
   }, [value])
 
-  return <div className="display" ref={displayRef}>{value}</div>
+  return (<div className="display" ref={displayRef} data-testid="display">{value}</div>)
+  
 }
 
 export default Display
